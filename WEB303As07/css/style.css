@@ -1,0 +1,54 @@
+* {
+    background-color: floralwhite;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table, th, td {
+    border: 1px solid;
+    padding: auto;
+    text-align: center;;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+td {
+    background-color: lightcoral;
+}
+
+#searchButton1, #searchButton2 {
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+tr.found-first-name td {
+    background-color: darkgreen;
+    color: white;
+}
+
+th.ascending:after {
+    content: '\25B2';
+    float: right;
+}
+
+th.descending:after {
+    content: '\25BC';
+    float: right;
+}
+
+th.ascending, th.descending, table.sortable th:hover {
+	background-color: green;
+    cursor: pointer;
+}
